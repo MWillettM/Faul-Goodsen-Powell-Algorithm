@@ -17,12 +17,12 @@ c>0, using a smaller value (O(10^-1) or smaller) is advised. This is the 'shape 
 q>0, using a value of q=30 is standard - feel free to go between 5 and 50. A rule of thumb is that smaller q means each iteration is quicker, but we may need more iterations for convergence overally. 
 
 ALGORITHM DESCRIPTION - outputs
-Iteration count - k
 
+Iteration count - k
 
 The interpolant, s(x) is of the form 
 
-s(x) = sum_i^n lambda_i phi(x-x_i) + alpha
+$s(x) = sum_i^n lambda_i phi(x-x_i) + alpha$
 
 where the x_i are the data centers and phi(x) = (x^2+c^2)^0.5 is the multiquadric radial basis function.
 
