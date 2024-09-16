@@ -42,10 +42,10 @@ You can try the DEMO version or use the FULL IMPLEMENTATION version as well.
 
 The DEMO version lets you vary the distribution that the test data is drawn from:
 
--The unit d-ball
+- The unit d-ball
 
--The unit d-cube
+- The unit d-cube
 
--The unit d-Normal
+- The unit d-Normal
 
--The integer grid in d-dimensions.
+- The integer grid in d-dimensions.
