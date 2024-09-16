@@ -6,19 +6,19 @@ Python  and Numpy
 
 **ALGORITHM DESCRIPTION** - inputs - FGP(data, values, q, c, error)
 
-*Data centers ($x_i$) and values at those points ($f_i$)
+- Data centers ($x_i$) and values at those points ($f_i$)
 
-*Error
+- Error
 
-*Two parameters for the algorithm - $q$ and $c$:
+- Two parameters for the algorithm - $q$ and $c$:
 
-**$c>0$, using a smaller value ($O(10^{-1})$ or smaller) is advised. This is the 'shape parameter' for the multiquadric.
+- $c>0$, using a smaller value ($O(10^{-1})$ or smaller) is advised. This is the 'shape parameter' for the multiquadric.
 
-**$q>0$, using a value of q=30 is standard - feel free to go between 5 and 50. A rule of thumb is that smaller q means each iteration is quicker, but we may need more iterations for convergence overally. 
+- $q>0$, using a value of q=30 is standard - feel free to go between 5 and 50. A rule of thumb is that smaller q means each iteration is quicker, but we may need more iterations for convergence overally. 
 
 **ALGORITHM DESCRIPTION** - outputs
 
-Iteration count - k
+- Iteration count - k
 
 The interpolant, s(x) is of the form 
 
