@@ -1,14 +1,19 @@
 This is a Python implementation of the Faul-Goodsen-Powell algorithm which produces an interpolant for d-dimensional data using the multiquadric radial basis functions. It works well for even very high dimensional data.
 
 INSTALLATION/REQUIREMENTS:
-Python > 3.11.8\\
+Python > 3.11.8
+
 Numpy
 
 ALGORITHM DESCRIPTION - inputs - FGP(data, values, q, c, error)
 Data centers (x_i) and values at those points (f_i)
+
 Error
+
 Two parameters for the algorithm - q and c:
+
 c>0, using a smaller value (O(10^-1) or smaller) is advised. This is the 'shape parameter' for the multiquadric.
+
 q>0, using a value of q=30 is standard - feel free to go between 5 and 50. A rule of thumb is that smaller q means each iteration is quicker, but we may need more iterations for convergence overally. 
 
 ALGORITHM DESCRIPTION - outputs
