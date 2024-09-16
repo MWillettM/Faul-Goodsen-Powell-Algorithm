@@ -1,5 +1,7 @@
 import numpy as np
 
+#Functions used for each stage of the algorithm.
+
 def MQ(x,c):
     k = np.sqrt(c**2+np.linalg.norm(x)**2)
     return k
