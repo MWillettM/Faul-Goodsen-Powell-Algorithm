@@ -1,4 +1,14 @@
+**FAUL-GOODSEN-POWELL algorithm**
+
 This is a Python implementation of the Faul-Goodsen-Powell algorithm which produces an interpolant for d-dimensional data using the multiquadric radial basis functions. It works well for even very high dimensional data.
+
+The interpolant, s(x) is of the form 
+
+$s(x) = \sum_i^n \lambda_i \phi(\|x-x_i\|) + \alpha$
+
+where the $x_i$ are the data centers and $\phi(x) = (x^2+c^2)^{\frac{1}{2}}$ is the multiquadric radial basis function.
+
+The algorithm returns the coefficients $\lambda_i$ and the value of $\alpha$.
 
 **INSTALLATION/REQUIREMENTS:**
 
@@ -20,13 +30,13 @@ Python  and Numpy
 
 - Iteration count - k
 
-The interpolant, s(x) is of the form 
+- Interpolant coefficients - $\lambda_i$
 
-$s(x) = \sum_i^n \lambda_i \phi(\|x-x_i\|) + \alpha$
+- Interpolant constant - $\alpha$
 
-where the $x_i$ are the data centers and $\phi(x) = (x^2+c^2)^{\frac{1}{2}}$ is the multiquadric radial basis function.
+- Interpolation error at the centers - err
 
-The algorithm returns the coefficients lambda_i and the value of alpha.
+
 
 You can try the DEMO version or use the FULL IMPLEMENTATION version as well.
 
